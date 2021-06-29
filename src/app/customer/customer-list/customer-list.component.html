@@ -1,0 +1,9 @@
+<h1>Customers</h1>
+<div class="customer-list" *ngIf="customers">
+  <div class="customer-list-headers">
+    <div>ID</div><div>Email</div><div>Last Updated</div>
+  </div>
+  <div class="customer-list-records" *ngFor="let c of customers">
+    <div>{{c.id}}</div><div>{{c.email}}</div><div>{{c.last_updated}}</div>
+  </div>
+</div>

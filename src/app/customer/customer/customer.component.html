@@ -1,0 +1,15 @@
+<ng-container *ngIf="customer">
+  <h1>{{customer.email || 'No Email Found'}}</h1>
+  <div class="customer-view-attributes">
+    <h2>Attributes</h2>
+    <ng-container *ngFor="let k of keys(customer)">
+      <div *ngIf="customer[k]">
+        {{k + ': ' + (customer[k] | json)}}
+      </div>
+    </ng-container>
+  </div>
+  <div class="customer-view-events">
+    <h2>Events</h2>
+    {{customer.events | json}}
+  </div>
+</ng-container>
