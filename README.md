@@ -1,4 +1,9 @@
-# Customer App
+# Hey You!
+There are full notes on implementation, existing issues, and future improvements for both the frontend and the backend on the backend repo's readme [HERE](https://github.com/zackjh67/customer-io-takehome-backend/blob/master/README.md)
+
+I'm keeping that Angular CLI jargan there below but you just need to know `npm install && ng serve`
+
+## Customer App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
